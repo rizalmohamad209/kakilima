@@ -33,8 +33,9 @@ export class Details extends Component {
         const {addCart} = this.context;
         return (
             <div>
-                <Container fluid>
+                
             <Navbar/>
+            <Container fluid>
             <div className="d-breadcrumb">
             <Link to={`/`}>
             <svg  width="3rem" height="4rem" viewBox="0 0 16 16" className="bi bi-arrow-left" fill="black" xmlns="http://www.w3.org/2000/svg">
@@ -48,7 +49,7 @@ export class Details extends Component {
                 product.map(item =>(
                     <div className="details" key={item._id}>
                         <Row className="rows justify-content-center" sm={1} xs={1} md={2}>
-                        <Col md={5}>
+                        <Col md={6}>
                         <div className="d-img">
                         <img  className="img3" src={item.imageUrl} alt={item.name}/>
                         </div>
@@ -57,7 +58,7 @@ export class Details extends Component {
                         <p>{item.description}</p>
                         </div>
                         </Col>
-                        <Col md={4}> 
+                        <Col md={6}> 
                         <div className="d-title">
                         <p style={{fontWeight:'bolder',marginBottom:'30px'}}>{item.name}</p>
                         </div>
