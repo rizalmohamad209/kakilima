@@ -33,7 +33,7 @@ export class Nav extends Component {
           {/* end nav left */}
           <ul className="d-navbar-nav d-nav-right">
         <li className="d-nav-item d-dropdown">
-          <a href="..." className="d-nav-link">
+          <a href className="d-nav-link">
             <FontAwesomeIcon icon={faConciergeBell} data-toggle="notification-menu" />
             <span className="d-navbar-badge">15</span>
           </a>
@@ -45,7 +45,7 @@ export class Nav extends Component {
             </div>
             <div className="d-dropdown-menu-content d-overlay-scrollbar d-scrollbar-hover">
               <li className="d-dropdown-menu-item">
-                <a href="..." className="d-dropdown-menu-link">
+                <a href className="d-dropdown-menu-link">
                   <div>
                     <i style={{color: '#6ab04c'}} className="fas fa-check-square" />
                   </div>
@@ -59,7 +59,7 @@ export class Nav extends Component {
                 </a>
               </li>
               <li className="d-dropdown-menu-item">
-                <a href="..." className="d-dropdown-menu-link">
+                <a href className="d-dropdown-menu-link">
                   <div>
                     <i style={{color: '#eb4d4b'}} className="fas fa-window-close" />
                   </div>
@@ -73,7 +73,7 @@ export class Nav extends Component {
                 </a>
               </li>
               <li className="d-dropdown-menu-item">
-                <a href="..." className="d-dropdown-menu-link">
+                <a href className="d-dropdown-menu-link">
                   <div>
                     <i style={{color: '#6ab04c'}} className="fas fa-biking" />
                   </div>
@@ -87,7 +87,7 @@ export class Nav extends Component {
                 </a>
               </li>
               <li className="d-dropdown-menu-item">
-                <a href="..." className="d-dropdown-menu-link">
+                <a href className="d-dropdown-menu-link">
                   <div>
                     <i style={{color: '#f0932b'}} className="fas fa-store" />
                   </div>
@@ -101,7 +101,7 @@ export class Nav extends Component {
                 </a>
               </li>
               <li className="d-dropdown-menu-item">
-                <a href="..." className="d-dropdown-menu-link">
+                <a href className="d-dropdown-menu-link">
                   <div>
                     <i style={{color: '#eb4d4b'}} className="fas fa-biking" />
                   </div>
@@ -115,7 +115,7 @@ export class Nav extends Component {
                 </a>
               </li>
               <li className="d-dropdown-menu-item">
-                <a href="..." className="d-dropdown-menu-link">
+                <a href className="d-dropdown-menu-link">
                   <div>
                     <i style={{color: '#6ab04c'}} className="fas fa-check-square" />
                   </div>
@@ -129,7 +129,7 @@ export class Nav extends Component {
                 </a>
               </li>
               <li className="d-dropdown-menu-item">
-                <a href="..." className="d-dropdown-menu-link">
+                <a href className="d-dropdown-menu-link">
                   <div>
                     <i style={{color: '#f0932b'}} className="fas fa-store" />
                   </div>
@@ -155,7 +155,7 @@ export class Nav extends Component {
                     <FontAwesomeIcon icon={faUser} style={{marginTop:'10px'}} className="dropdown-toggle" data-toggle="user-menu" />
             <ul id="user-menu" className="d-dropdown-menu">
               <li className="d-dropdown-menu-item">
-                <a href="..." className="d-dropdown-menu-link">
+                <a href className="d-dropdown-menu-link">
                   <div>
                     <FontAwesomeIcon icon={faUser}/>
                   </div>
@@ -163,7 +163,7 @@ export class Nav extends Component {
                 </a>
               </li>
               <li className="d-dropdown-menu-item">
-                <a href="..." className="d-dropdown-menu-link">
+                <a href className="d-dropdown-menu-link">
                   <div>
                     <i className="fas fa-cog" />
                   </div>
@@ -171,7 +171,7 @@ export class Nav extends Component {
                 </a>
               </li>
               <li className="d-dropdown-menu-item">
-                <a href="..." className="d-dropdown-menu-link">
+                <a href className="d-dropdown-menu-link">
                   <div>
                     <i className="fas fa-wallet" />
                   </div>
@@ -179,7 +179,7 @@ export class Nav extends Component {
                 </a>
               </li>
               <li className="d-dropdown-menu-item">
-                <a href="..." className="d-dropdown-menu-link">
+                <a href className="d-dropdown-menu-link">
                   <div>
                     <i className="fas fa-sign-out-alt" />
                   </div>

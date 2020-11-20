@@ -20,14 +20,14 @@ export class Pedagang extends Component {
                 <div className="sidebar">
           <ul className="sidebar-nav">
             <li className="sidebar-nav-item">
-              <a href="dashboard.html" className="sidebar-nav-link active">
+              <Link to={`/pedagang`} className="sidebar-nav-link active">
                 <div>
                   <img style={{marginTop:'20px', marginLeft:'20px'}} src={Dashboard} width="30px" height="30px" alt=""/>
                 </div>
                 <span>
                   Dashboard
                 </span>
-              </a>
+              </Link>
             </li>
             <li className="sidebar-nav-item">
               <Link to={`/pesanan`} className="sidebar-nav-link">

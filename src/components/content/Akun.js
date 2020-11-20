@@ -40,7 +40,7 @@ export class Akun extends Component {
                <FontAwesomeIcon icon={faUser} alt="User image" className="dropdown-toggle" data-toggle="user-menu" />
                 <ul id="user-menu" className="pr-dropdown-menu">
                   <li className="pr-dropdown-menu-item">
-                    <a href="..." className="pr-dropdown-menu-link">
+                    <a href className="pr-dropdown-menu-link">
                       <div>
                         <FontAwesomeIcon icon={faUser}/>
                       </div>
@@ -48,7 +48,7 @@ export class Akun extends Component {
                     </a>
                   </li>
                   <li className="pr-dropdown-menu-item">
-                    <a href="..." className="pr-dropdown-menu-link">
+                    <a href className="pr-dropdown-menu-link">
                       <div>
                         <i className="fas fa-cog" />
                       </div>
@@ -56,7 +56,7 @@ export class Akun extends Component {
                     </a>
                   </li>
                   <li className="pr-dropdown-menu-item">
-                    <a href="..." className="pr-dropdown-menu-link">
+                    <a href className="pr-dropdown-menu-link">
                       <div>
                         <i className="fas fa-wallet" />
                       </div>
@@ -64,7 +64,7 @@ export class Akun extends Component {
                     </a>
                   </li>
                   <li className="pr-dropdown-menu-item">
-                    <a href="..." className="pr-dropdown-menu-link">
+                    <a href className="pr-dropdown-menu-link">
                       <div>
                         <i className="fas fa-sign-out-alt" />
                       </div>
@@ -158,9 +158,9 @@ export class Akun extends Component {
                     <p>Jenis Kelamin</p>
                     <b>Laki-Laki</b><br />
                     <div className="tbl" style={{ display:'flex'}}>
-                    <a href="..." className="button" style={{marginRight:'20px'}}> Ubah Profile</a>
+                    <a href className="button" style={{marginRight:'20px'}}> Ubah Profile</a>
 
-                    <a href="..." className="button">Ubah Password</a>
+                    <a href className="button">Ubah Password</a>
                     </div>
                   </legend>
                 </div>
