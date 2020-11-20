@@ -1,0 +1,224 @@
+/* Container{
+    margin: auto;
+
+} */
+
+
+.c-cart{
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 90%;
+    margin: auto;
+    height: 450px;
+    background-color: #c4c4c4;
+}
+section .cart{
+    position: relative;
+    border: 1px solid #ccc;
+}
+.amount span{
+    color: crimson;
+    padding: 0 20px;
+}
+.amount .count-tambah{
+    width: 40px;
+    height: 30px;
+    border: 1px solid #555;
+    outline: none;
+    background-color: #FEBD2E;
+    cursor: pointer;
+}
+
+.wallet{
+    margin-top: -15px;
+    display: flex;
+}
+
+.wallet .e-wallet p{
+    margin-bottom: -100px;
+}
+
+.amount .count-kurang{
+    width: 40px;
+    height: 30px;
+    border: 1px solid #555;
+    outline: none;
+    background-color: red;
+    cursor: pointer;
+}
+.delete{
+    margin-top: -35px;
+    margin-right: -120px; 
+    color: crimson;
+    display: flex;
+    cursor: pointer;
+    font-weight: 900;
+}
+.total{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    height: 50px;
+    display: flex;
+    border-radius: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.sub-total{
+    display: block;
+    
+}
+
+.total span{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px 25px;
+    background-color: #FEBD2E;
+    border-radius: 10px;
+    
+}
+.total h3{
+    color:black;
+    display: block;
+}
+.img{
+    width: 100px;
+    height: 60px;
+    margin-top: -40px;
+    margin-left: 5px;
+}
+
+.peta{
+    margin-top: -55px;
+    margin-right: 5PX;
+    float: right;
+}
+
+.box-cart1{
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: -20px !important;
+    margin: auto;
+    width:96%;
+    background-color: #ffffff;
+    height: 80px;
+}
+
+.box-cart2{
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 10px !important;
+    margin: auto;
+    position: static;
+    width:96%;
+    background-color: #ffffff;
+    height: 80px;
+}
+.box-cart{
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: auto;
+    width:96%;
+    background-color: #ffffff;
+    height: 80px;
+}
+
+.c-content{
+    display: inline;
+}
+
+.c-body span{
+    margin-left: -20px;
+    display: block;
+}
+
+.c-body{
+    display: inline-block;
+    margin-left: 40px;
+
+}
+
+.cart-box{
+    display: flex;
+    box-sizing: border-box;
+}
+
+
+.c-box{
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+}
+
+.amount{
+    display: flex;
+    float: right;
+    margin-top:40px;
+    margin-right: 20px;
+}
+
+@media (max-width:600px){
+    .c-cart{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .amount{
+        margin-top: -25px;
+        display: block;
+    }
+
+    .delete{
+        margin-top: 27px;
+        margin-bottom: -50px;
+        margin-left: 90%; 
+        color: crimson;
+        display: flex;
+        cursor: pointer;
+        position: relative;
+        font-weight: 900;
+    }
+    .amount .count-tambah{
+        width: 30px;
+        margin-right: -10px;
+        margin-top: 70px;
+        height: 30px;
+        position: relative;
+        border: 1px solid #555;
+        background-color: #FEBD2E;
+        outline: none;
+        cursor: pointer;
+    }
+    .amount .count-kurang{
+        width: 30px;
+        height: 30px;
+        border: 1px solid #555;
+        margin-right: -10px;
+        margin-top: 70px;
+        background-color: red;
+        position: relative;
+        outline: none;
+        cursor: pointer !important;
+    }
+    .amount span{
+        color: crimson;
+        padding: 0 20px;
+    }
+    .c-body span{
+        margin-left: -30px;
+        display: block;
+        font-size: 12px;
+    }
+    .c-body{
+        margin-top: 20px;
+    }
+    .img{
+        width: 100px;
+        height: 60px;
+        margin-left: 5px;
+    }
+    
+}
