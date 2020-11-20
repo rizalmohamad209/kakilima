@@ -4,6 +4,7 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import Logo from '../../assets/images/logo.png'
 import './Akun.css'
 import './Driver.js'
+import {Link} from 'react-router-dom'
 
 
 export class Nav extends Component {
@@ -21,9 +22,9 @@ export class Nav extends Component {
           {/* nav left */}
           <ul className="d-navbar-nav">
             <li className="d-nav-item">
-            <a href="#" className="d-nav-link">
+            <Link to="#" className="d-nav-link">
                     <FontAwesomeIcon icon={faBars} onClick={this.toggleClass}/>
-            </a>
+            </Link>
             </li>
             <li className="d-nav-item">
               <img src={Logo} className="d-logo logo-light" alt=""/>
