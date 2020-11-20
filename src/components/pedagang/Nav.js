@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import {faBars, faConciergeBell, faUser} from '@fortawesome/free-solid-svg-icons'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import Logo from '../../assets/images/logo.png'
-import {Link} from 'react-router-dom'
 import './styles.css'
 import './Index'
 
@@ -23,9 +22,7 @@ export class Nav extends Component {
           {/* nav left */}
           <ul className="p-navbar-nav">
             <li className="p-nav-item">
-            <Link to="#" className="d-nav-link">
-                    <FontAwesomeIcon icon={faBars} onClick={this.toggleClass}/>
-            </Link>
+                    <FontAwesomeIcon className="d-nav-link" icon={faBars} onClick={this.toggleClass}/>
               <img src={Logo} style={{width: '60px', height: '60px'}} alt="" />
             </li>
             <li className="p-nav-item">
