@@ -162,7 +162,7 @@ export class Rekening extends Component {
                     <b>Efendi Kisnoto</b>
                     <p>Saldo</p>
                     <b>Rp.1.000.000</b><br />
-                    <a className="button"> Ubah E-wallet</a>
+                    <a href="..." className="button"> Ubah E-wallet</a>
                   </legend>
                 </div>
               </div>

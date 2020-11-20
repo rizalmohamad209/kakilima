@@ -163,7 +163,7 @@ export class Nav extends Component {
                 </a>
               </li>
               <li className="d-dropdown-menu-item">
-                <a href href="..." className="d-dropdown-menu-link">
+                <a href="..." className="d-dropdown-menu-link">
                   <div>
                     <i className="fas fa-cog" />
                   </div>

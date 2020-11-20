@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import {Container} from 'react-bootstrap'
 import Products from './content/Products'
 import Details from './content/Details'
 import Cart from './content/Cart'

@@ -112,8 +112,8 @@ export class Akun extends Component {
                 <h3>4.5</h3>
                 <p>Rating</p>
               </div>
-            </a></div><a href="#" style={{textDecoration: 'none'}}>
-          </a><div className="d-col-3 d-col-m-6 d-col-sm-6"><a href="#" style={{textDecoration: 'none'}}>
+            </a></div><a href="..." style={{textDecoration: 'none'}}>
+          </a><div className="d-col-3 d-col-m-6 d-col-sm-6"><a href="..." style={{textDecoration: 'none'}}>
             </a><a href="..." style={{textDecoration: 'none'}}>
               <div className="d-counter d-bg-danger">
                 <p>

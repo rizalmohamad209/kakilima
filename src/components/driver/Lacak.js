@@ -138,7 +138,7 @@ export class Lacak extends Component {
                         </tr></tbody></table>
                   </div>
                   <div>
-                    <iframe className="d-col-12 d-col-m-12 d-col-sm-12 d-col-xl-12" src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3960.5940319837773!2d109.11510151427724!3d-6.9390255949865685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x2e6fb95a8059e98f%3A0x565ec952d40bb8fe!2sBatagor%20Somay%20Radja%20Biroe%20Abah%20Ali%2C%20Jalan%20Raya%20Penarukan%2C%20Jangri%2C%20Pagedangan%2C%20Tegal%2C%20Jawa%20Tengah!3m2!1d-6.9387164!2d109.11644199999999!4m5!1s0x2e6fb9382ed91dc9%3A0xb7e8e3846a197e6a!2sPagedangan%2C%20Tegal%2C%20Jawa%20Tengah!3m2!1d-6.938754599999999!2d109.1181429!5e0!3m2!1sid!2sid!4v1605109391384!5m2!1sid!2sid" style={{border: 0}} allowFullScreen aria-hidden="false" tabIndex={0} height={450} frameBorder={0} />
+                    <iframe title="Lacak" className="d-col-12 d-col-m-12 d-col-sm-12 d-col-xl-12" src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3960.5940319837773!2d109.11510151427724!3d-6.9390255949865685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x2e6fb95a8059e98f%3A0x565ec952d40bb8fe!2sBatagor%20Somay%20Radja%20Biroe%20Abah%20Ali%2C%20Jalan%20Raya%20Penarukan%2C%20Jangri%2C%20Pagedangan%2C%20Tegal%2C%20Jawa%20Tengah!3m2!1d-6.9387164!2d109.11644199999999!4m5!1s0x2e6fb9382ed91dc9%3A0xb7e8e3846a197e6a!2sPagedangan%2C%20Tegal%2C%20Jawa%20Tengah!3m2!1d-6.938754599999999!2d109.1181429!5e0!3m2!1sid!2sid!4v1605109391384!5m2!1sid!2sid" style={{border: 0}} allowFullScreen aria-hidden="false" tabIndex={0} height={450} frameBorder={0} />
                   </div>
                 </div>
               </div>

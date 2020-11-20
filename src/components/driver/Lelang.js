@@ -156,7 +156,7 @@ export class Lelang extends Component {
                       <i className="fas fa-map-marked-alt" /></button>
                   </div>
                   <div className="d-map ">
-                    <iframe className="d-col-12 d-col-m-12 d-col-sm-12 d-col-xl-12" src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d15841.157756636947!2d109.05796666908813!3d-6.975137669375194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x2e6fbc6b78cb2dc1%3A0x2251f80bacaa5e07!2snasi%20padang%20jatibarang!3m2!1d-6.9684064999999995!2d109.06635039999999!4m5!1s0x2e6fbc38f4bc7a7f%3A0x663a9e021a3ff34a!2sKaranglo%2C%20Kabupaten%20Brebes%2C%20Jawa%20Tengah!3m2!1d-6.982256!2d109.0713268!5e0!3m2!1sid!2sid!4v1605109253948!5m2!1sid!2sid" style={{border: 0}} allowFullScreen aria-hidden="false" tabIndex={0} height={450} frameBorder={0} />
+                    <iframe title="Track" className="d-col-12 d-col-m-12 d-col-sm-12 d-col-xl-12" src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d15841.157756636947!2d109.05796666908813!3d-6.975137669375194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x2e6fbc6b78cb2dc1%3A0x2251f80bacaa5e07!2snasi%20padang%20jatibarang!3m2!1d-6.9684064999999995!2d109.06635039999999!4m5!1s0x2e6fbc38f4bc7a7f%3A0x663a9e021a3ff34a!2sKaranglo%2C%20Kabupaten%20Brebes%2C%20Jawa%20Tengah!3m2!1d-6.982256!2d109.0713268!5e0!3m2!1sid!2sid!4v1605109253948!5m2!1sid!2sid" style={{border: 0}} allowFullScreen aria-hidden="false" tabIndex={0} height={450} frameBorder={0} />
                   </div>
                 </div>
               </div>
@@ -221,7 +221,7 @@ export class Lelang extends Component {
                       <i className="fas fa-map-marked-alt" /></button>
                   </div>
                   <div className="d-map1">
-                    <iframe className="d-col-12 d-col-m-12 d-col-sm-12 d-col-xl-12" src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3960.230082281731!2d109.06071801427751!3d-6.982153294956015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x2e6fbd9bc5a3faa9%3A0x22c4405e6d686aa3!2sKetoprak%20Malehoy%20Om%20Cakep%2C%20Jl.%20Raya%20Randusari%2C%20Pasarean%2C%20Pesarean%2C%20Pagerbarang%2C%20Tegal%2C%20Central%20Java%2052462!3m2!1d-6.9834461999999995!2d109.0656326!4m5!1s0x2e6fbc44d1d8bb2f%3A0xd8c62cfce15cf489!2sPesarean%2C%20Pagerbarang%2C%20Tegal%2C%20Jawa%20Tengah!3m2!1d-6.9808021!2d109.0601808!5e0!3m2!1sid!2sid!4v1605109163956!5m2!1sid!2sid" style={{border: 0}} allowFullScreen aria-hidden="false" tabIndex={0} height={450} frameBorder={0} />
+                    <iframe title="Track" className="d-col-12 d-col-m-12 d-col-sm-12 d-col-xl-12" src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3960.230082281731!2d109.06071801427751!3d-6.982153294956015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x2e6fbd9bc5a3faa9%3A0x22c4405e6d686aa3!2sKetoprak%20Malehoy%20Om%20Cakep%2C%20Jl.%20Raya%20Randusari%2C%20Pasarean%2C%20Pesarean%2C%20Pagerbarang%2C%20Tegal%2C%20Central%20Java%2052462!3m2!1d-6.9834461999999995!2d109.0656326!4m5!1s0x2e6fbc44d1d8bb2f%3A0xd8c62cfce15cf489!2sPesarean%2C%20Pagerbarang%2C%20Tegal%2C%20Jawa%20Tengah!3m2!1d-6.9808021!2d109.0601808!5e0!3m2!1sid!2sid!4v1605109163956!5m2!1sid!2sid" style={{border: 0}} allowFullScreen aria-hidden="false" tabIndex={0} height={450} frameBorder={0} />
                   </div>
                 </div>
               </div>
@@ -286,7 +286,7 @@ export class Lelang extends Component {
                       <i className="fas fa-map-marked-alt" /></button>
                   </div>
                   <div className="d-map2">
-                    <iframe className="d-col-12 d-col-m-12 d-col-sm-12 d-col-xl-12" src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d15838.923260104668!2d109.1077825190953!3d-7.040888368630481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x2e6f95b84155e30d%3A0x8aefb1f4fe1dad4!2sBatagor%20Reny%2C%20Balaradin%2C%20Kec.%20Lebaksiu%2C%20Tegal%2C%20Jawa%20Tengah%2052461!3m2!1d-7.0338256!2d109.1128281!4m5!1s0x2e6f95948b92ae5f%3A0xc80ad72b1fd7c03!2sTAMAN%20TEKNOLOGI%20PERTANIAN%20LEBAKSIU%2C%20Duren%20Sawit%2C%20Jl.%20Kesuben%2C%20Kademangan%2C%20Lebaksiu%20Lor%2C%20Kec.%20Lebaksiu%2C%20Tegal%2C%20Jawa%20Tengah%2052461!3m2!1d-7.047951299999999!2d109.11955499999999!5e0!3m2!1sid!2sid!4v1605109046370!5m2!1sid!2sid" style={{border: 0}} allowFullScreen aria-hidden="false" tabIndex={0} height={450} frameBorder={0} />
+                    <iframe title="Track" className="d-col-12 d-col-m-12 d-col-sm-12 d-col-xl-12" src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d15838.923260104668!2d109.1077825190953!3d-7.040888368630481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x2e6f95b84155e30d%3A0x8aefb1f4fe1dad4!2sBatagor%20Reny%2C%20Balaradin%2C%20Kec.%20Lebaksiu%2C%20Tegal%2C%20Jawa%20Tengah%2052461!3m2!1d-7.0338256!2d109.1128281!4m5!1s0x2e6f95948b92ae5f%3A0xc80ad72b1fd7c03!2sTAMAN%20TEKNOLOGI%20PERTANIAN%20LEBAKSIU%2C%20Duren%20Sawit%2C%20Jl.%20Kesuben%2C%20Kademangan%2C%20Lebaksiu%20Lor%2C%20Kec.%20Lebaksiu%2C%20Tegal%2C%20Jawa%20Tengah%2052461!3m2!1d-7.047951299999999!2d109.11955499999999!5e0!3m2!1sid!2sid!4v1605109046370!5m2!1sid!2sid" style={{border: 0}} allowFullScreen aria-hidden="false" tabIndex={0} height={450} frameBorder={0} />
                   </div>
                 </div>
               </div>					
