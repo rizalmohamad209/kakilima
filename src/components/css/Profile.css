@@ -18,17 +18,7 @@
     background-color: #ffc520;
     color: black;
 }
-.button2{
-    width: 112px;
-    height: 30px;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-    background-color: #ffc520;
-    color: black;
-}
+
 
 
 .pr-bg-primary {

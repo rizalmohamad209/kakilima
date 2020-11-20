@@ -28,7 +28,7 @@ export class Rekening extends Component {
           {/* nav left */}
           <ul className="pr-navbar-nav">
             <li className="pr-nav-item">
-              <a className="pr-nav-link">
+              <a href="..." className="pr-nav-link">
                 <FontAwesomeIcon icon={faBars} onClick={this.toggleClass}/>
               </a>
             </li>
@@ -43,7 +43,7 @@ export class Rekening extends Component {
                 <FontAwesomeIcon icon={faUser} alt="User image" className="dropdown-toggle" data-toggle="user-menu" />
                 <ul id="user-menu" className="pr-dropdown-menu">
                   <li className="pr-dropdown-menu-item">
-                    <a href className="pr-dropdown-menu-link">
+                    <a href="..." className="pr-dropdown-menu-link">
                       <div>
                        <FontAwesomeIcon icon={faUser}/>
                       </div>
@@ -51,7 +51,7 @@ export class Rekening extends Component {
                     </a>
                   </li>
                   <li className="pr-dropdown-menu-item">
-                    <a href className="pr-dropdown-menu-link">
+                    <a href="..." className="pr-dropdown-menu-link">
                       <div>
                         <i className="fas fa-cog" />
                       </div>
@@ -59,7 +59,7 @@ export class Rekening extends Component {
                     </a>
                   </li>
                   <li className="pr-dropdown-menu-item">
-                    <a href className="pr-dropdown-menu-link">
+                    <a href="..." className="pr-dropdown-menu-link">
                       <div>
                         <i className="fas fa-wallet" />
                       </div>
@@ -67,7 +67,7 @@ export class Rekening extends Component {
                     </a>
                   </li>
                   <li className="pr-dropdown-menu-item">
-                    <a href className="pr-dropdown-menu-link">
+                    <a href="..." className="pr-dropdown-menu-link">
                       <div>
                         <i className="fas fa-sign-out-alt" />
                       </div>

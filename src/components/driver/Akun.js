@@ -24,7 +24,7 @@ export class Akun extends Component {
           <div className="d-sidebar">
           <ul className="d-sidebar-nav">
             <li className="d-sidebar-nav-item">
-              <a href="index.html" className="d-sidebar-nav-link active">
+              <a href="..." className="d-sidebar-nav-link active">
                 <div>
                 <img style={{marginTop:'20px', marginLeft:'20px'}} src={Dashboard} width="30px" height="30px" alt=""/>
                 </div>
@@ -82,7 +82,7 @@ export class Akun extends Component {
                       <div className="d-wrapper">
         <div className="d-row">
           <div className="d-col-3 d-col-m-6 d-col-sm-6">
-            <a href="#" style={{textDecoration: 'none'}}>
+            <a href="..." style={{textDecoration: 'none'}}>
               <div className="d-counter d-bg-primary">
                 <p>
                   <i className="fas fa-biking" />
@@ -93,7 +93,7 @@ export class Akun extends Component {
             </a>
           </div>
           <div className="d-col-3 d-col-m-6 d-col-sm-6">
-            <a href="#" style={{textDecoration: 'none'}}>
+            <a href="..." style={{textDecoration: 'none'}}>
               <div className="d-counter d-bg-warning">
                 <p>
                   <i className="fas fa-clipboard-check" />
@@ -104,7 +104,7 @@ export class Akun extends Component {
             </a>
           </div>
           <div className="d-col-3 d-col-m-6 d-col-sm-6">
-            <a href="#" style={{textDecoration: 'none'}}>
+            <a href="..." style={{textDecoration: 'none'}}>
               <div className="d-counter d-bg-success">
                 <p>
                   <i className="fas fa-star-half-alt" />
@@ -114,7 +114,7 @@ export class Akun extends Component {
               </div>
             </a></div><a href="#" style={{textDecoration: 'none'}}>
           </a><div className="d-col-3 d-col-m-6 d-col-sm-6"><a href="#" style={{textDecoration: 'none'}}>
-            </a><a href="#" style={{textDecoration: 'none'}}>
+            </a><a href="..." style={{textDecoration: 'none'}}>
               <div className="d-counter d-bg-danger">
                 <p>
                   <i className="fas fa-wallet" />
@@ -122,7 +122,7 @@ export class Akun extends Component {
                 <h3>Rp. 200.000,-</h3>
                 <p>E-wallet</p>
               </div>
-            </a></div><a href="#" style={{textDecoration: 'none'}}>
+            </a></div><a href="..." style={{textDecoration: 'none'}}>
           </a>
         </div>
         <div className="d-row">
@@ -141,7 +141,7 @@ export class Akun extends Component {
           <div className="d-col-4 d-col-m-12 d-col-sm-12">
             <div className="d-card">
               <div className="d-card-header">
-                <h3>Rating Toko</h3>
+                <h3>Rating Driver</h3>
               </div>
               <div className="d-card-content">
                 <Pie/>
@@ -319,7 +319,7 @@ export class Akun extends Component {
                   </tbody>
                 </table>
               </div>
-              <a href="histori.html" style={{textDecoration: 'none', padding: '20px'}}>Lihat Selengkapnya
+              <a href="..." style={{textDecoration: 'none', padding: '20px'}}>Lihat Selengkapnya
                 <i className="fas fa-angle-double-right" /></a>
             </div>
           </div>

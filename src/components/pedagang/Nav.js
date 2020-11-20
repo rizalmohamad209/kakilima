@@ -22,7 +22,7 @@ export class Nav extends Component {
           {/* nav left */}
           <ul className="p-navbar-nav">
             <li className="p-nav-item">
-              <a className="p-nav-link">
+              <a href="..." className="p-nav-link">
                   <FontAwesomeIcon icon={faBars} onClick={this.toggleClass}/>
               </a>
               <img src={Logo} style={{width: '60px', height: '60px'}} alt="" />
@@ -35,7 +35,7 @@ export class Nav extends Component {
           {/* nav right */}
           <ul className="p-navbar-nav p-nav-right">
             <li className="p-nav-item p-dropdown">
-              <a className="p-nav-link">
+              <a href="..." className="p-nav-link">
               <FontAwesomeIcon icon={faConciergeBell} className="p-dropdown-toggle" data-toggle="notification-menu" />
                 <span className="p-navbar-badge">15</span>
               </a>
@@ -45,7 +45,7 @@ export class Nav extends Component {
                 </div>
                 <div className="p-dropdown-menu-content overlay-scrollbar scrollbar-hover">
                   <li className="p-dropdown-menu-item">
-                    <a href="pengiriman.html" className="p-dropdown-menu-link">
+                    <a href="..." className="p-dropdown-menu-link">
                       <div>
                         <i className="fas fa-biking" />
                       </div>
@@ -59,7 +59,7 @@ export class Nav extends Component {
                     </a>
                   </li>
                   <li className="p-dropdown-menu-item">
-                    <a href="pesanan.html" className="p-dropdown-menu-link">
+                    <a href="..." className="p-dropdown-menu-link">
                       <div>
                         <i className="fas fa-tasks" />
                       </div>
@@ -73,7 +73,7 @@ export class Nav extends Component {
                     </a>
                   </li>
                   <li className="p-dropdown-menu-item">
-                    <a href="pengiriman.html" className="p-dropdown-menu-link">
+                    <a href="..." className="p-dropdown-menu-link">
                       <div>
                         <i className="fas fa-biking" />
                       </div>
@@ -87,7 +87,7 @@ export class Nav extends Component {
                     </a>
                   </li>
                   <li className="p-dropdown-menu-item">
-                    <a href="pesanan.html" className="p-dropdown-menu-link">
+                    <a href="..." className="p-dropdown-menu-link">
                       <div>
                         <i className="fas fa-tasks" />
                       </div>
@@ -101,7 +101,7 @@ export class Nav extends Component {
                     </a>
                   </li>
                   <li className="p-dropdown-menu-item">
-                    <a href="pengiriman.html" className="p-dropdown-menu-link">
+                    <a href="..." className="p-dropdown-menu-link">
                       <div>
                         <i className="fas fa-biking" />
                       </div>
@@ -115,7 +115,7 @@ export class Nav extends Component {
                     </a>
                   </li>
                   <li className="p-dropdown-menu-item">
-                    <a href="pesanan.html" className="p-dropdown-menu-link">
+                    <a href="..." className="p-dropdown-menu-link">
                       <div>
                         <i className="fas fa-tasks" />
                       </div>
@@ -129,7 +129,7 @@ export class Nav extends Component {
                     </a>
                   </li>
                   <li className="p-dropdown-menu-item">
-                    <a href="pengiriman.html" className="p-dropdown-menu-link">
+                    <a href="..." className="p-dropdown-menu-link">
                       <div>
                         <i className="fas fa-biking" />
                       </div>
@@ -143,7 +143,7 @@ export class Nav extends Component {
                     </a>
                   </li>
                   <li className="p-dropdown-menu-item">
-                    <a href="pesanan.html" className="p-dropdown-menu-link">
+                    <a href="..." className="p-dropdown-menu-link">
                       <div>
                         <i className="fas fa-tasks" />
                       </div>
@@ -157,7 +157,7 @@ export class Nav extends Component {
                     </a>
                   </li>
                   <li className="p-dropdown-menu-item">
-                    <a href="pengiriman.html" className="p-dropdown-menu-link">
+                    <a href="..." className="p-dropdown-menu-link">
                       <div>
                         <i className="fas fa-biking" />
                       </div>
@@ -171,7 +171,7 @@ export class Nav extends Component {
                     </a>
                   </li>
                   <li className="p-dropdown-menu-item">
-                    <a href="pesanan.html" className="p-dropdown-menu-link">
+                    <a href="..." className="p-dropdown-menu-link">
                       <div>
                         <i className="fas fa-tasks" />
                       </div>
@@ -185,7 +185,7 @@ export class Nav extends Component {
                     </a>
                   </li>
                   <li className="p-dropdown-menu-item">
-                    <a href="pengiriman.html" className="p-dropdown-menu-link">
+                    <a href="..." className="p-dropdown-menu-link">
                       <div>
                         <i className="fas fa-biking" />
                       </div>
@@ -199,7 +199,7 @@ export class Nav extends Component {
                     </a>
                   </li>
                   <li className="p-dropdown-menu-item">
-                    <a href="pesanan.html" className="p-dropdown-menu-link">
+                    <a href="..." className="p-dropdown-menu-link">
                       <div>
                         <i className="fas fa-tasks" />
                       </div>
@@ -223,7 +223,7 @@ export class Nav extends Component {
                <FontAwesomeIcon icon={faUser} alt="User image" style={{marginTop:'10px'}} className="p-dropdown-toggle" data-toggle="user-menu" />
                 <ul id="user-menu" className="p-dropdown-menu">
                   <li className="p-dropdown-menu-item">
-                    <a className="p-dropdown-menu-link">
+                    <a href="..." className="p-dropdown-menu-link">
                       <div>
                        <FontAwesomeIcon icon={faUser}/>
                       </div>
@@ -231,7 +231,7 @@ export class Nav extends Component {
                     </a>
                   </li>
                   <li className="p-dropdown-menu-item">
-                    <a href="#" className="p-dropdown-menu-link">
+                    <a href="..." className="p-dropdown-menu-link">
                       <div>
                         <i className="fas fa-cog" />
                       </div>
@@ -239,7 +239,7 @@ export class Nav extends Component {
                     </a>
                   </li>
                   <li className="p-dropdown-menu-item">
-                    <a href="#" className="p-dropdown-menu-link">
+                    <a href="..." className="p-dropdown-menu-link">
                       <div>
                         <i className="far fa-credit-card" />
                       </div>
@@ -247,7 +247,7 @@ export class Nav extends Component {
                     </a>
                   </li>
                   <li className="p-dropdown-menu-item">
-                    <a href="#" className="p-dropdown-menu-link">
+                    <a href="..." className="p-dropdown-menu-link">
                       <div>
                         <i className="fas fa-sign-out-alt" />
                       </div>

@@ -27,7 +27,6 @@ export class Content extends Component {
     render() {
         return (
             <>
-            <Container fluid>
 
                 <Route path="/" component={Login} exact />
                 <Route path="/signup" component={Signup} exact />
@@ -50,7 +49,6 @@ export class Content extends Component {
                 <Route path="/toko" component={Toko} exact />
                 <Route path="/keuangan" component={Keuangan} exact />
                 <Route path="/payment" component={Payment} exact/>
-            </Container>
 
                 
 

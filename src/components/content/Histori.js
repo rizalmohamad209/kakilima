@@ -36,8 +36,8 @@ export class Histori extends Component {
                    </div>
                     <div className="lacak">
                         <span>Sedang DiAntar</span>
-                        <Link>
-                        <a  className="button"> Lacak</a>
+                        <Link to={`/deliver`}>
+                        <a href="..." className="button"> Lacak</a>
                         </Link>
                     </div>
                     
@@ -56,7 +56,7 @@ export class Histori extends Component {
                    </div>
                     <div className="lacak">
                         <Link>
-                        <a  className="button"> Lacak</a>
+                        <a href="..." className="button"> Selesai</a>
                         </Link>
                     </div>
                     
