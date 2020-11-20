@@ -12,6 +12,8 @@ export class Histori extends Component {
         return (
             
             <div>
+
+            <Container fluid>
             <Navbar/> 
             <div className="d-breadcrumb">
             <Link to={`/`}>
@@ -20,7 +22,6 @@ export class Histori extends Component {
             </svg> 
             </Link>
             </div>
-            <Container fluid>
             <div className="c-cart">
                 <br/>
                 <div className="h-box">

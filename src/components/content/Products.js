@@ -15,10 +15,12 @@ export class Products extends Component {
         const {products, addCart} = this.context;
         
         return (
-            <>
+            <div>
             <Navbar/>
             <Slider/>
+
             <Container fluid>
+            
                 <h4>Category</h4>
             <Row style={{margin:'auto'}} className="rows" sm={2} xs={2} md={4}>
                 
@@ -116,7 +118,7 @@ export class Products extends Component {
             </div>
 
             </Container>
-            </>
+            </div>
             
         )
     }

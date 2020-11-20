@@ -34,22 +34,23 @@ export class Details extends Component {
         return (
             <div>
                 
+            
             <Navbar/>
-            <Container fluid>
             <div className="d-breadcrumb">
             <Link to={`/`}>
             <svg  width="3rem" height="4rem" viewBox="0 0 16 16" className="bi bi-arrow-left" fill="black" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
             </svg> 
             </Link>
-            </div>
             
+            </div>
+            <Container fluid>
             {
                 
                 product.map(item =>(
                     <div className="details" key={item._id}>
                         <Row className="rows justify-content-center" sm={1} xs={1} md={2}>
-                        <Col md={6}>
+                        <Col md={5}>
                         <div className="d-img">
                         <img  className="img3" src={item.imageUrl} alt={item.name}/>
                         </div>
@@ -58,7 +59,7 @@ export class Details extends Component {
                         <p>{item.description}</p>
                         </div>
                         </Col>
-                        <Col md={6}> 
+                        <Col md={4}> 
                         <div className="d-title">
                         <p style={{fontWeight:'bolder',marginBottom:'30px'}}>{item.name}</p>
                         </div>
