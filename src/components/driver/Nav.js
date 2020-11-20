@@ -4,7 +4,6 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import Logo from '../../assets/images/logo.png'
 import './Akun.css'
 import './Driver.js'
-import { Link } from 'react-router-dom'
 
 
 export class Nav extends Component {
