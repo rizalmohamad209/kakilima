@@ -28,7 +28,7 @@ export class Rekening extends Component {
           {/* nav left */}
           <ul className="pr-navbar-nav">
             <li className="pr-nav-item">
-            <a href className="pr-nav-link">
+            <a href="#" className="pr-nav-link">
                     <FontAwesomeIcon icon={faBars} onClick={this.toggleClass}/>
             </a>
             </li>

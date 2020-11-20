@@ -21,7 +21,7 @@ export class Nav extends Component {
           {/* nav left */}
           <ul className="d-navbar-nav">
             <li className="d-nav-item">
-            <a href className="d-nav-link">
+            <a href="#" className="d-nav-link">
                     <FontAwesomeIcon icon={faBars} onClick={this.toggleClass}/>
             </a>
             </li>
