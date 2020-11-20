@@ -25,7 +25,7 @@ export class Cart extends Component {
             </svg> 
             </Link>
             </div>
-            <Container>
+            <Container fluid>
             <div className="c-cart">
                 <br/>
                 <div className="box-cart1">

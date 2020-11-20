@@ -20,7 +20,7 @@ export class Histori extends Component {
             </svg> 
             </Link>
             </div>
-            <Container>
+            <Container fluid>
             <div className="c-cart">
                 <br/>
                 <div className="h-box">

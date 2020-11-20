@@ -33,7 +33,7 @@ export class Details extends Component {
         const {addCart} = this.context;
         return (
             <div>
-                <Container>
+                <Container fluid>
             <Navbar/>
             <div className="d-breadcrumb">
             <Link to={`/`}>
