@@ -22,9 +22,9 @@ export class Nav extends Component {
           {/* nav left */}
           <ul className="p-navbar-nav">
             <li className="p-nav-item">
-              <a href="..." className="p-nav-link">
-                  <FontAwesomeIcon icon={faBars} onClick={this.toggleClass}/>
-              </a>
+            <Link to='#' className="d-nav-link">
+                    <FontAwesomeIcon icon={faBars} onClick={this.toggleClass}/>
+            </Link>
               <img src={Logo} style={{width: '60px', height: '60px'}} alt="" />
             </li>
             <li className="p-nav-item">
