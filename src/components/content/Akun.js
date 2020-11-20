@@ -25,9 +25,9 @@ export class Akun extends Component {
           {/* nav left */}
           <ul className="pr-navbar-nav">
             <li className="pr-nav-item">
-            <Link to='#' className="d-nav-link">
+            <a href className="pr-nav-link">
                     <FontAwesomeIcon icon={faBars} onClick={this.toggleClass}/>
-            </Link>
+            </a>
             </li>
             <li className="pr-nav-item">
               <img src={Logo} className="pr-logo logo-light" alt="" />

@@ -22,9 +22,9 @@ export class Nav extends Component {
           {/* nav left */}
           <ul className="d-navbar-nav">
             <li className="d-nav-item">
-            <Link to='#' className="d-nav-link">
+            <a href className="d-nav-link">
                     <FontAwesomeIcon icon={faBars} onClick={this.toggleClass}/>
-            </Link>
+            </a>
             </li>
             <li className="d-nav-item">
               <img src={Logo} className="d-logo logo-light" alt=""/>
