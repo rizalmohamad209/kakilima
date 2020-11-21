@@ -117,7 +117,11 @@ export class Produk extends Component {
                 <i className="fas fa-ellipsis-h" />
               </div>
               <div className="p-card-content">
-                <i className="fas fa-plus" />
+                <img src="https://via.placeholder.com/150" alt=""/>
+                <div className="tbl" style={{marginRight:'100px'}}>
+                      <a href className="button" style={{marginRight:'20px', }}>Tambah Produk</a>
+                </div>
+
               </div>
             </div>
           </div>

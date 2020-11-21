@@ -95,6 +95,11 @@ export class Toko extends Component {
                       <td><input className="input-produk" type="text" placeholder="Nama Toko" /></td>
                       </tr>
                       <tr>
+                      <td>Upload KTP</td>
+                      <td>:</td>
+                      <td><img src="https://via.placeholder.com/150" alt=""/></td>
+                      </tr>
+                      <tr>
                       <td>Alamat Toko</td>
                       <td>:</td>
                       <td><input className="input-produk" type="text" placeholder="Alamat Toko" /></td>
@@ -109,7 +114,7 @@ export class Toko extends Component {
                       <td>:</td>
                       <td><textarea className="input-produk" name="desc" id cols={30} rows={10} defaultValue={""} /></td>
                     </tr>
-                    <div className="tbl" style={{marginTop:'100px'}}>
+                    <div className="tbl" style={{marginRight:'100px'}}>
                       <a href className="button" style={{marginRight:'20px', }}>Tambah Produk</a>
                       </div>
                   </tbody></table>
