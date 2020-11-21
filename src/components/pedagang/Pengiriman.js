@@ -69,13 +69,14 @@ export class Pengiriman extends Component {
           </ul>
         </div>
     </div>
+
     <div className="wrapper">
         <div className="row">
           <div className="p-col-8 p-col-m-12 p-col-sm-12">
             <div className="p-card">
               <div className="p-card-header">
                 <h3>Lelang</h3>
-                <div className="tbl" style={{display:'flex'}}> 
+                <div className="tbl" style={{ display:'flex'}}> 
                       <a href className="button" style={{marginRight:'20px', }}>Mulai</a>
                 </div>
               </div>
@@ -118,9 +119,8 @@ export class Pengiriman extends Component {
                 </h3>
               </div>
               <div className="p-card-content">
-
-              <span>Driver A</span>
               <img src="https://via.placeholder.com/150" alt=""/>
+                <span>Driver A</span>
               </div>
             </div>
           </div>
@@ -174,8 +174,8 @@ export class Pengiriman extends Component {
                 </h3>
               </div>
               <div className="p-card-content">
-              <span>Driver B</span>
               <img src="https://via.placeholder.com/150" alt=""/>
+                <span>Driver B</span>
               </div>
             </div>
           </div>
