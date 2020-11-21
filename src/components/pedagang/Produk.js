@@ -104,6 +104,9 @@ export class Produk extends Component {
                       <td>:</td>
                       <td><textarea className="input-produk" name="desc" id cols={30} rows={10} defaultValue={""} /></td>
                     </tr>
+                    <div className="tbl" style={{marginRight:'100px'}}> <br/>
+                      <a href className="button" style={{marginRight:'20px', }}>Tambah Produk</a>
+                </div>
                   </tbody></table>
               </div>
             </div>
@@ -116,10 +119,10 @@ export class Produk extends Component {
                 </h3>
                 <i className="fas fa-ellipsis-h" />
               </div>
-              <div className="p-card-content">
-                <img src="https://via.placeholder.com/150" alt=""/>
-                <div className="tbl" style={{marginRight:'100px'}}>
-                      <a href className="button" style={{marginRight:'20px', }}>Tambah Produk</a>
+              <div className="p-card-content" style={{margin:'auto'}}>
+                <img src="https://via.placeholder.com/150" alt=""/><br/>
+                <div className="tbl" style={{marginRight:'100px'}}> 
+                      <a href className="button" style={{marginRight:'20px', }}>Tambah Gambar</a>
                 </div>
 
               </div>
@@ -152,6 +155,9 @@ export class Produk extends Component {
                       <td>:</td>
                       <td><input className="input-produk" type="number" /></td>
                     </tr>
+                    <div className="tbl" style={{marginRight:'100px'}}>
+                      <a href className="button" style={{marginRight:'20px', }}>Tambah Detail Produk</a>
+                </div>
                   </tbody></table>
               </div>
             </div>

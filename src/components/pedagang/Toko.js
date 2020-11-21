@@ -115,7 +115,7 @@ export class Toko extends Component {
                       <td><textarea className="input-produk" name="desc" id cols={30} rows={10} defaultValue={""} /></td>
                     </tr>
                     <div className="tbl" style={{marginRight:'100px'}}>
-                      <a href className="button" style={{marginRight:'20px', }}>Tambah Produk</a>
+                      <a href className="button" style={{marginRight:'20px', }}>Tambah Toko</a>
                       </div>
                   </tbody></table>
               </div>
