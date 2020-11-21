@@ -76,7 +76,7 @@ export class Pengiriman extends Component {
             <div className="p-card">
               <div className="p-card-header">
                 <h3>Lelang</h3>
-                <div className="tbl" style={{marginTop:'50px'}}> 
+                <div className="tbl" style={{marginTop:'50px', display:'flex'}}> 
                       <a href className="button" style={{marginRight:'20px', }}>Mulai</a>
                 </div>
               </div>
@@ -119,7 +119,7 @@ export class Pengiriman extends Component {
                 </h3>
               </div>
               <div className="p-card-content">
-              <img src="https://via.placeholder.com/350 x 150" alt=""/>
+              <img src="https://via.placeholder.com/150" alt=""/>
                 <span>Driver A</span>
               </div>
             </div>
@@ -130,7 +130,7 @@ export class Pengiriman extends Component {
             <div className="p-card">
               <div className="p-card-header">
                 <h3>Lelang</h3>
-                <div className="tbl" style={{marginTop:'50px'}}> 
+                <div className="tbl" style={{marginTop:'50px', display:'flex'}}> 
                       <a href className="button" style={{marginRight:'20px', }}>Mulai</a>
                 </div>
 
@@ -174,7 +174,7 @@ export class Pengiriman extends Component {
                 </h3>
               </div>
               <div className="p-card-content">
-              <img src="https://via.placeholder.com/350 x 150" alt=""/>
+              <img src="https://via.placeholder.com/150" alt=""/>
                 <span>Driver B</span>
               </div>
             </div>
