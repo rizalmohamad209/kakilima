@@ -122,7 +122,7 @@ export class Produk extends Component {
               <div className="p-card-content" style={{margin:'auto'}}>
                 <img src="https://via.placeholder.com/150" alt=""/>
                 <div className="tbl" style={{marginTop:'50px'}}> 
-                      <a href className="button" style={{marginRight:'20px', }}>Tambah Gambar</a>
+                      <a href className="button" style={{marginRight:'20px', }}>Tambahkan</a>
                 </div>
 
               </div>
@@ -156,7 +156,7 @@ export class Produk extends Component {
                       <td><input className="input-produk" type="number" /></td>
                     </tr>
                     <div className="tbl" style={{marginRight:'100px'}}>
-                      <a href className="button" style={{marginRight:'20px', }}>Tambah Detail Produk</a>
+                      <a href className="button" style={{marginRight:'20px', }}>Tambah</a>
                 </div>
                   </tbody></table>
               </div>
