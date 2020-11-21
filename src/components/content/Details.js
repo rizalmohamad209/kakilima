@@ -59,7 +59,7 @@ export class Details extends Component {
                         <p>{item.description}</p>
                         </div>
                         </Col>
-                        <Col md={4}> 
+                        <Col md={3}> 
                         <div className="d-title">
                         <p style={{fontWeight:'bolder',marginBottom:'30px'}}>{item.name}</p>
                         </div>
