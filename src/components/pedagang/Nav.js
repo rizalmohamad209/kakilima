@@ -223,9 +223,8 @@ export class Nav extends Component {
                <FontAwesomeIcon icon={faUser} alt="User image" style={{marginTop:'10px'}} className="p-dropdown-toggle" data-toggle="user-menu" />
                 <ul id="user-menu" className="p-dropdown-menu">
                   <li className="p-dropdown-menu-item">
-                    <a href className="p-dropdown-menu-link">
+                    <a href={`/profile`} className="p-dropdown-menu-link">
                       <div>
-                       <FontAwesomeIcon icon={faUser}/>
                       </div>
                       <span>Profile</span>
                     </a>
