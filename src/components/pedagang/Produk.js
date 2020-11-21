@@ -120,8 +120,8 @@ export class Produk extends Component {
                 <i className="fas fa-ellipsis-h" />
               </div>
               <div className="p-card-content" style={{margin:'auto'}}>
-                <img src="https://via.placeholder.com/150" alt=""/><br/>
-                <div className="tbl" style={{marginRight:'100px'}}> 
+                <img src="https://via.placeholder.com/350 x 150" alt=""/>
+                <div className="tbl" style={{marginTop:'50px'}}> 
                       <a href className="button" style={{marginRight:'20px', }}>Tambah Gambar</a>
                 </div>
 
