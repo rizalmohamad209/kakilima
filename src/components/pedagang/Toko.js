@@ -78,7 +78,7 @@ export class Toko extends Component {
 
     <div className="wrapper">
         <div className="row">
-          <div className="p-col-8 p-col-m-12 p-col-sm-12">
+          <div className="p-col-12 p-col-m-12 p-col-sm-12">
             <div className="p-card">
               <div className="p-card-header">
                 <h3>
@@ -102,24 +102,11 @@ export class Toko extends Component {
                       <td>Deskripsi toko</td>
                       <td>:</td>
                       <td><textarea className="input-produk" name="desc" id cols={30} rows={10} defaultValue={""} /></td>
-                      <div className="tbl">
+                      <div className="tbl" style={{marginTop:'100px'}}>
                       <a href className="button" style={{marginRight:'20px', }}>Tambah Produk</a>
                       </div>
                     </tr>
                   </tbody></table>
-              </div>
-            </div>
-          </div>
-          <div className="p-col-4 p-col-m-12 p-col-sm-12">
-            <div className="p-card">
-              <div className="p-card-header">
-                <h3>
-                  Gambar Toko
-                </h3>
-                <i className="fas fa-ellipsis-h" />
-              </div>
-              <div className="p-card-content">
-                <i className="fas fa-plus" />
               </div>
             </div>
           </div>
