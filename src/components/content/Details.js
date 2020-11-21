@@ -36,6 +36,7 @@ export class Details extends Component {
                 
             
             <Navbar/>
+            <Container>
             <div className="d-breadcrumb">
             <Link to={`/`}>
             <svg  width="3rem" height="4rem" viewBox="0 0 16 16" className="bi bi-arrow-left" fill="black" xmlns="http://www.w3.org/2000/svg">
@@ -44,7 +45,7 @@ export class Details extends Component {
             </Link>
             
             </div>
-            <Container>
+            
             {
                 
                 product.map(item =>(
