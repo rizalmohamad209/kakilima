@@ -21,7 +21,9 @@ export class Nav extends Component {
           {/* nav left */}
           <ul className="d-navbar-nav">
             <li className="d-nav-item">
-                    <FontAwesomeIcon className="d-nav-link" icon={faBars} onClick={this.toggleClass}/>
+              <a href className="d-nav-link">
+                    <FontAwesomeIcon  icon={faBars} onClick={this.toggleClass}/>
+                    </a>
             </li>
             <li className="d-nav-item">
               <img src={Logo} className="d-logo logo-light" alt=""/>
