@@ -14,7 +14,7 @@ export class Deliver extends Component {
         return (
             <div>
                 <Navbar/>
-                <Container>
+                <Container fluid>
                 <img src="https://res.cloudinary.com/dk4dgvu4w/image/upload/v1605896299/maps_x4migx.jpg" className="del-img" alt=""/>
                 <div className="box">
                     <div className="d-content">
