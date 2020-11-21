@@ -44,7 +44,7 @@ export class Details extends Component {
             </Link>
             
             </div>
-            <Container fluid>
+            <Container>
             {
                 
                 product.map(item =>(
